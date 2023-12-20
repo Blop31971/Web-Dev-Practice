@@ -10,18 +10,51 @@
 <body onload="preloadImages()">
     <div id="container">
         <header id="header">
-            <img src="Images/Banner/Logo.jpg" alt="Logo">
-            <img src="Images/Banner/Banner.jpg" alt="Banner">
-
+            <img src="Images/Banner/Logo.jpg" alt="Logo" width="100px">
+            <img src="Images/Banner/Banner.jpg" alt="Banner" width="400px">
+            <img src="Images/Banner/Logo.jpg" alt="Logo" width="100px">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Tributes</a></li>
+                    <li><a href="#">Survey</a></li>
+                    <li><a href="#">Favorites</a></li>
+                </ul>
+            </nav>
         </header>          
         <section>
             <article>
+                <h1>Welcome to Backyard Birds of Utah!</h1>
                 <p>
-                The content of the document goes here . . .
+                    If you love birdwatching like we do, you should enjoy looking around this site.  
                 </p>
-                <!---Welcom text-->
+                <p>
+                    Take a look at our Bird Profiles and take the opportunity to complete our survey.
+                </p>
                 <!---image swap-->
+                <div class="imgswap">
+                    <p class="instructions">[Instructions:  Mouse over small images to see larger image.]</p>
+
+                    <div id="thumbs">
+                        <img src="Images/Thumbnail/Image1Sm.jpg.jpg" alt="Quail" onmouseover="swapImage(0);" />
+                        <img src="Images/Thumbnail/Image2Sm.jpg" alt="Swan" onmouseover="swapImage(1);" />
+                        <img src="Images/Thumbnail/Image3Sm.jpg" alt="Pelican" onmouseover="swapImage(2);" />
+                        <img src="Images/Thumbnail/Image4Sm.jpg" alt="Pigeon" onmouseover="swapImage(3);" />
+                        <br />
+                            
+                    </div>
+                    <div id="image">
+                
+                        <img id="theImage" src="Images/Large Images/Image1Lg.jpg" alt="Quail" />
+                        <h3 id="bottomText">Quail</h3>
+                    </div>
+                </div>
                 <!---mini tribute-->
+                <div class="tributes-snippit">
+
+                    <p><a>Takes us to the tributes page</a></p>
+                </div>
             </article>
         </section>
         <footer></footer>
