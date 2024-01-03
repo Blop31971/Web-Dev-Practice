@@ -110,6 +110,7 @@ section{
 }
 article{
    width: 800px;
+    text-align: left;
 }
 
 #thumbs, #image {
